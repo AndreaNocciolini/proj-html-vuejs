@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import Jumbo from './Jumbo.vue'
-import Consultants from './Consultants.vue'
+import Jumbo from './main_components/Jumbo.vue'
+import Consultants from './main_components/Consultants.vue'
 
 export default {
     name: "Main",

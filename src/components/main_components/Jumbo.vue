@@ -13,7 +13,7 @@
         </div>
         </div>
         <div class="jumbo-img float-end">
-            <img src="../assets/images/portrait-of-young-architect-woman-on-meeting-KFZCE3A.jpg" alt="">
+            <img src="../../assets/images/portrait-of-young-architect-woman-on-meeting-KFZCE3A.jpg" alt="">
         </div>
     </div>
 </template>
@@ -45,14 +45,6 @@ export default {
                 max-width: 100%;
             }
         }
-        // background-image: url('../assets/images/portrait-of-young-architect-woman-on-meeting-KFZCE3A.jpg');
-        // background-size: contain;
-        // background-repeat: no-repeat;
-        // background-position: right;
-        
-        // .description-container {
-        //     width: 30%;
-        // }
     }
     .fas.fa-play{
         color: var(--tx-white-1);
