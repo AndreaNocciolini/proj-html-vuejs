@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header class="fixed-top">
       <div class="header-container d-flex justify-content-around align-items-center">
           <div class="header-logo">
               <img src="../assets/images/logotype.png" alt="">
