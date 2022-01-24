@@ -23,6 +23,7 @@ export default {
 
 <style lang="scss">
 @import "~bootstrap/scss/bootstrap";
+@import './assets/styles/my_style.scss';
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
