@@ -1,7 +1,9 @@
 <template>
-  <div>
-      Lorem Ipsum
-  </div>
+  <footers>
+      <div>
+          Lorem Ipsum
+      </div>  
+  </footers>
 </template>
 
 <script>
@@ -11,5 +13,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+    div{
+        width: 100%;
+        height: 50px;
+        background-color: black;
+    }
 </style>
