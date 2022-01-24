@@ -1,8 +1,8 @@
 <template>
-  <footers>
+  <footer>
       <div>
       </div>  
-  </footers>
+  </footer>
 </template>
 
 <script>
