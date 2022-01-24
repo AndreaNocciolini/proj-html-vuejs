@@ -28,7 +28,7 @@ export default {
     .header-container {
         height: 50px;
         width: 100%;
-        background-color: rgb(148, 0, 0, 0.8);
+        background-color: var(--bg-white-2);
         .header-logo img{
             width: 30%;
         }
@@ -37,7 +37,7 @@ export default {
             ul {
             margin: auto;
             li a {
-                color: white;
+                color: var(--tx-white-1);
                 text-decoration: none;
                 }
             li:hover::before,    
@@ -45,7 +45,7 @@ export default {
                 content: '';
                 width: 100%;
                 height: 2px;
-                background-color: white;
+                background-color: var(--bg-white-1);
                 display: block;
                 margin-bottom: 1.5em;
                 }
