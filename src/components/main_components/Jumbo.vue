@@ -1,10 +1,5 @@
 <template>
     <div class="jumbo-container d-flex position-relative">
-        <!-- <div class="description-container d-flex flex-column justify-content-center align-items-start ms-5">
-            <p> Always the best way you need it</p>
-            <h1>THE BEST BUSINESS CONSULTING</h1>
-            <div><button>READ MORE</button><i class="fas fa-play"></i></div>
-        </div> -->
         <div class="jumbo-description float-start positione-relative">
             <div class="description-container ms-5">
             <p> Always the best way you need it</p>

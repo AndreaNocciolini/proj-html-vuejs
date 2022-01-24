@@ -2,12 +2,16 @@
   <main>
       <Jumbo :icon="icon" />
       <Consultants :consultantsArray="consultantsArray"/>
+      <AboutUs />
+      <Projects /><!-- -----------RIPARTI DAL COMPONENT 'PROJECTS.VUE' IN 'MAIN_COMPONENTS' ****************** -->
   </main>
 </template>
 
 <script>
 import Jumbo from './main_components/Jumbo.vue'
 import Consultants from './main_components/Consultants.vue'
+import AboutUs from './main_components/AboutUs.vue'
+import Projects from './main_components/Projects.vue'
 
 export default {
     name: "Main",
@@ -40,6 +44,8 @@ export default {
     components: { 
         Jumbo,
         Consultants,
+        AboutUs,
+        Projects,
     }
 }
 </script>

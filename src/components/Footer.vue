@@ -1,7 +1,6 @@
 <template>
   <footers>
       <div>
-          Lorem Ipsum
       </div>  
   </footers>
 </template>
@@ -16,6 +15,5 @@ export default {
     div{
         width: 100%;
         height: 50px;
-        background-color: black;
     }
 </style>
