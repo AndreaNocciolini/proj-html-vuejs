@@ -1,3 +1,5 @@
+// RESTART FROM HERE (USE COLOR ROOTS, FINISH FIRST PART MAIN)
+///////////////////////////////////////////////////////////////
 <template>
   <main class="d-flex align-items-center">
       <div class="my-container d-flex">
