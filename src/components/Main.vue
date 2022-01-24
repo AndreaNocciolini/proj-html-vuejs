@@ -1,5 +1,5 @@
 <template>
-  <main class="d-flex align-items-center">
+  <main>
       <Jumbo />
   </main>
 </template>
