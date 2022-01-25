@@ -4,7 +4,7 @@
       <Consultants :consultantsArray ="consultantsArray"/>
       <AboutUs />
       <Projects :projectsImgArray ="projectsImgArray" />
-      <Testimonials />
+      <Testimonials :commentsArray="commentsArray" />
   </main>
 </template>
 
@@ -50,6 +50,23 @@ export default {
                 },
                 2: {
                     src: '../../assets/images/z1el4c4p-790x592.jpg'
+                }
+            },
+            commentsArray: {
+                0: {
+                    text: 'When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a',
+                    author: 'Vera Duncan',
+                    company:'Amazon Inc.'
+                },
+                1: {
+                    text: 'When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a',
+                    author: 'Stan Smith',
+                    company:'Boolean Inc.'
+                },
+                2: {
+                    text: 'When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a',
+                    author: 'Bill Gates',
+                    company:'Microsoft Inc.'
                 }
             }
         }
