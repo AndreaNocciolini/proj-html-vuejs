@@ -26,7 +26,7 @@ export default {
 
 <style lang="scss" scoped>
     .header-container {
-        -webkit-text-stroke: 0.15px black;
+        text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
         height: 50px;
         width: 100%;
         background-color: var(--bg-white-2);
@@ -49,6 +49,7 @@ export default {
                 background-color: var(--bg-white-1);
                 display: block;
                 margin-bottom: 1.5em;
+                border-bottom: 0.5px solid black;
                 }
             
             }
