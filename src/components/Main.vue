@@ -1,10 +1,12 @@
 <template>
   <main>
-      <Jumbo :icon="icon" />
+      <Jumbo />
       <Consultants :consultantsArray ="consultantsArray"/>
       <AboutUs />
       <Projects :projectsImgArray ="projectsImgArray" />
       <Testimonials :commentsArray="commentsArray" />
+      <Blog :articlesArray="articlesArray"/>
+      <LetsTalk />
   </main>
 </template>
 
@@ -14,6 +16,8 @@ import Consultants from './main_components/Consultants.vue'
 import AboutUs from './main_components/AboutUs.vue'
 import Projects from './main_components/Projects.vue'
 import Testimonials from './main_components/Testimonials.vue'
+import Blog from './main_components/Blog.vue'
+import LetsTalk from './main_components/LetsTalk.vue'
 
 export default {
     name: "Main",
@@ -68,6 +72,22 @@ export default {
                     author: 'Bill Gates',
                     company:'Microsoft Inc.'
                 }
+            },
+            articlesArray: {
+                0:{
+                    img:'',
+                    date:'July 4, 2019',
+                    author:'paul',
+                    title:'Canadian consulting firm acquired by UK giant',
+                    content:'When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a'
+                },
+                1:{
+                    img:'',
+                    date:'July 13, 2019',
+                    author:'Beth',
+                    title:'Canadian consulting firm acquired by UK giant',
+                    content:'When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a'
+                },
             }
         }
     },
@@ -77,6 +97,8 @@ export default {
         AboutUs,
         Projects,
         Testimonials,
+        Blog,
+        LetsTalk
     }
 }
 </script>
