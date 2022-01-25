@@ -1,6 +1,9 @@
 <template>
   <footer>
-      <div>
+      <div class="links-container">
+          <div class="logo">
+              <img src="../assets/images/logotype-2-139x23.png" alt="">
+          </div>
       </div>  
   </footer>
 </template>
@@ -12,8 +15,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    div{
+    footer{
         width: 100%;
-        height: 50px;
+        background-color: var(--bg-dark-3);
+        .links-container {
+            width: 88%;
+            margin: 0 auto;
+        }
     }
 </style>
