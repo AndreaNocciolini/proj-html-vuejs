@@ -1,9 +1,10 @@
 <template>
   <main>
       <Jumbo :icon="icon" />
-      <Consultants :consultantsArray="consultantsArray"/>
+      <Consultants :consultantsArray ="consultantsArray"/>
       <AboutUs />
-      <Projects /><!-- -----------RIPARTI DAL COMPONENT 'PROJECTS.VUE' IN 'MAIN_COMPONENTS' ****************** -->
+      <Projects :projectsImgArray ="projectsImgArray" />
+      <Testimonials />
   </main>
 </template>
 
@@ -12,6 +13,7 @@ import Jumbo from './main_components/Jumbo.vue'
 import Consultants from './main_components/Consultants.vue'
 import AboutUs from './main_components/AboutUs.vue'
 import Projects from './main_components/Projects.vue'
+import Testimonials from './main_components/Testimonials.vue'
 
 export default {
     name: "Main",
@@ -38,6 +40,17 @@ export default {
                     title: 'ENTERPRISE CONSULTING',
                     description:'When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a'
                 }
+            },
+            projectsImgArray: {
+                0: {
+                    src: '../../assets/images/DRY-1-790x592.jpg'
+                },
+                1: {
+                    src: '../../assets/images/221bf0b7-8134-43bb-936a-5acbe42db64a-790x592.jpg'
+                },
+                2: {
+                    src: '../../assets/images/z1el4c4p-790x592.jpg'
+                }
             }
         }
     },
@@ -46,6 +59,7 @@ export default {
         Consultants,
         AboutUs,
         Projects,
+        Testimonials,
     }
 }
 </script>

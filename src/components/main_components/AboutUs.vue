@@ -1,8 +1,7 @@
 <template>
   <div class="about-us-container position-relative d-flex">
     <div class="about-us-img-container position-relative">
-        <img src="../../assets/images/business-people-working-together-on-project-and-5FHSKBL-1390.jpg" alt="">
-        <div class="red-filter position-absolute w-100 h-100"></div>
+        <img src="../../assets/images/business-people-working-together-on-project-and-5FHSKBL.jpg" alt="">
     </div>
     <div class="about-us-description d-flex justify-content-center flex-column w-50 p-4">
         <h5>ABOUT US</h5>
@@ -35,12 +34,6 @@ export default {
     .about-us-img-container {
         img {
             width: 100%;
-        }
-        .red-filter {
-            background-color: var(--bg-red-2);
-            top: 0;
-            left: 0;
-            opacity: 0.7;
         }
     }
     .about-us-description {
