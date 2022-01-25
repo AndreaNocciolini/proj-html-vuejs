@@ -4,7 +4,7 @@
             <div class="description-container ms-5">
             <p> Always the best way you need it</p>
             <h1>THE BEST BUSINESS CONSULTING</h1>
-            <div><button class="me-3">READ MORE</button><i class="fas fa-play"></i></div>
+            <div><button class="me-5">READ MORE</button><i class="fas fa-play"></i></div>
         </div>
         </div>
         <div class="jumbo-img float-end">
@@ -27,11 +27,19 @@ export default {
         .jumbo-description {
             width: 35%;
             .description-container {
-                width: 20%;
+                width: 40%;
                 position: absolute;
                 top: 50%;
-                right: 60%;
-                font-size: larger;
+                right: 55%;
+                h1 {
+                    font-size: 5em;
+                }
+                button {
+                    background-color: var(--bg-green-1);
+                    border: none;
+                    font-size: 0.7em;
+                    padding: 1.5em 5em;
+                }
             }
         }
         .jumbo-img {
@@ -42,7 +50,7 @@ export default {
         }
     }
     .fas.fa-play{
-        color: var(--tx-white-1);
+        color: var(--tx-green);
         font-size: 0.5em;
         border: 1px solid var(--tx-white-1);
         padding: 1.5em;
