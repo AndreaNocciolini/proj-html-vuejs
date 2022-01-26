@@ -6,7 +6,7 @@
       <div class="description-container position-absolute top-50 start-50 translate-middle position-absolute">
           <h2>LET'S TALK ABOUT WORK</h2>
           <p>A wonderful serenity has taken possession Far far away, behind the word mountains</p>
-          <button class="pt-2 pb-2 ps-4 pe-4">GET STARTED</button>
+          <button>GET STARTED</button>
       </div>
   </div>
 </template>
@@ -36,6 +36,7 @@ export default {
             button {
                 color: var(--tx-white-1);
                 background-color: var(--bg-dark-3);
+                padding: 1em 3em;
                 border: none;
             }
         }

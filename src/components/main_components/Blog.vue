@@ -2,14 +2,14 @@
   <div class="my-container">
       <div class="blog-container">
         <div class="title">
-          <h5>BLOG</h5>
+          <h5><span class="me-3"></span>BLOG</h5>
         </div>
         <div class="description d-flex justify-content-between">
             <div class="text">
                 <h2>THE RECENT NEWS YOU MUST READ IT</h2>
             </div>
             <div class="button d-flex">
-                <button class="p-3">VIEW ALL</button>
+                <button>VIEW ALL</button>
             </div>
         </div>
         <div class="articles row row-cols-2">
@@ -45,6 +45,31 @@ export default {
         .blog-container {
             width: 90%;
             margin: 0 auto;
+            .title{
+                h5 {
+                    font-size: 1em;
+                    span {
+                        display: inline-block;
+                        width: 3%;
+                        height: 2px;
+                        background-color: var(--bg-green-1);  
+                    }
+                }
+            }
+            .description {
+                .text {
+                    h2{   
+                        font-weight: 900;
+                        font-size: 2.5em;
+                    }
+                }
+                button {
+                    padding: 1em 3em;
+                    font-size: 0.8em;
+                    background-color: var(--bg-green-1);
+                    border: 0;
+                }
+            }
             .articles {
                 .col {
                     img {

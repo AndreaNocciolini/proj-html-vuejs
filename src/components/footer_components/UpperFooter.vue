@@ -44,6 +44,7 @@ export default {
                     a {
                         text-decoration: none;
                         color: var(--tx-grey-6);
+                        font-size: 0.85em;
                     }
                 }
             }

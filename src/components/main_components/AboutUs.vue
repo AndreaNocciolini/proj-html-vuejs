@@ -44,10 +44,10 @@ export default {
             width: 65%;
             font-size: 1em;
             span {
-            display: inline-block;
-            width: 10%;
-            height: 2px;
-            background-color: var(--bg-green-1);
+                display: inline-block;
+                width: 10%;
+                height: 2px;
+                background-color: var(--bg-green-1);
             }
         }
         h2{
