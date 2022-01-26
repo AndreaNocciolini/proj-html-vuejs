@@ -14,9 +14,9 @@
               </div>   
           </div>
           <div class="slider row row-cols-3">
-              <div class="col position-relative" v-for="(element, index) in projectsArray" :key="index">
+              <div class="col position-relative" v-for="(element, index) in projectsArray" :key="index"><!--@mouseover="mouseOver"-->
                   <img :src="element.src" alt="">
-                  <div class="img-hover position-absolute">
+                  <div class="img-hover position-absolute">  <!--v-show="active"-->
                       <div class="product-container">
                         <h3>{{element.company}}</h3>
                         <h6>{{element.product_category}}</h6>
@@ -36,7 +36,18 @@ export default {
     name: 'Projects',
     props: [
         'projectsArray',
-    ]
+    ],
+    // data() {
+    //     return {
+    //     active: false,
+    //     };
+    // },
+    // methods: {
+    //     mouseOver: function(){
+    //         console.log(this.active)
+    //         this.active = !this.active;   
+    //     }
+    // }
 }
 </script>
 
@@ -91,6 +102,7 @@ export default {
                         background-color: var(--bg-red-1);
                         opacity: 0.85;
                         box-shadow: 0px 0px 0px 5px #000000;
+                        padding: 1em;
                         button {
                             border: none;
                             font-size: 2em;
@@ -103,7 +115,6 @@ export default {
                         display: flex;
                         align-items: flex-end;
                         justify-content: space-between;
-                        padding: 1em;
                         cursor: pointer;
                     }
                 }
