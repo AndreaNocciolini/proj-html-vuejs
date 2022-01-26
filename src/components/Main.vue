@@ -66,17 +66,20 @@ export default {
                 0: {
                     text: 'When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a',
                     author: 'Vera Duncan',
-                    company:'Amazon Inc.'
+                    company:'Amazon Inc.',
+                    bg_img: 'comment-0'
                 },
                 1: {
                     text: 'When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a',
                     author: 'Stan Smith',
-                    company:'Boolean Inc.'
+                    company:'Boolean Inc.',
+                    bg_img: 'comment-1'
                 },
                 2: {
                     text: 'When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a',
                     author: 'Bill Gates',
-                    company:'Microsoft Inc.'
+                    company:'Microsoft Inc.',
+                    bg_img: 'comment-2'
                 }
             },
             articlesArray: {

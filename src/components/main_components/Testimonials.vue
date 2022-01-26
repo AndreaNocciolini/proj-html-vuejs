@@ -7,8 +7,8 @@
           <h3>WHAT'S THE COSTUMERS SAY ABOUT OUR WORK</h3>
       </div>
       <div class="comments-section d-flex flex-row-reverse">
-          <div class="comments-container row row-cols-4">
-              <div class="comments col p-5" v-for="(element, index) in commentsArray" :key="index">
+          <div class="comments-container row row-cols-4 position-relative">
+              <div class="comments col p-5 me-2" v-for="(element, index) in commentsArray" :key="index" :class="element.bg_img">
                   <p>{{element.text}}</p>
                   <h4>{{element.author}}</h4>
                   <h6>{{element.company}}</h6>
@@ -67,8 +67,9 @@ export default {
                 width: 90%;
                 background-color: var(--bg-white-1);
                 .comments {
+                    transition: all .3s linear;
                     p{
-                        color: var(--tx-grey-3);
+                        color: var(--tx-grey-1);
                         font-size: 0.9em;
                     }
                     h5 {
@@ -77,6 +78,25 @@ export default {
                     h6 {
                         color: var(--tx-grey-1);
                         font-size: 0.7em;
+                    }
+                }
+                .comment-0:hover{
+                    background-image: url(../../assets/images/oliver-ragfelt-488196-2.jpg);
+                }
+                .comment-1:hover{
+                    background-image: url(../../assets/images/12679.jpg);
+                }
+                .comment-2:hover{
+                    background-image: url(../../assets/images/oliver-ragfelt-488196-unsplash.jpg);
+                }
+                .comment-0:hover,
+                .comment-1:hover,
+                .comment-2:hover{
+                    cursor: pointer;
+                    background-size: contain;
+                    box-shadow: 5px -5px 0px 0px black inset, 5px 5px 0px 0px black inset;
+                    h4 {
+                        color: var(--tx-white-1);
                     }
                 }
             }
