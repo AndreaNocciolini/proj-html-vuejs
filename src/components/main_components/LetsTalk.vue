@@ -6,7 +6,7 @@
       <div class="description-container position-absolute top-50 start-50 translate-middle position-absolute">
           <h2>LET'S TALK ABOUT WORK</h2>
           <p>A wonderful serenity has taken possession Far far away, behind the word mountains</p>
-          <button>GET STARTED</button>
+          <button id="button-hover">GET STARTED</button>
       </div>
   </div>
 </template>

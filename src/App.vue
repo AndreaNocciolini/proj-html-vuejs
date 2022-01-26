@@ -38,4 +38,11 @@ html {
   -moz-osx-font-smoothing: grayscale;
   overflow: hidden;
 }
+
+// Button hover effect
+#button-hover:hover {
+  color: var(--tx-white-1);
+  background-color: var(--bg-red-1);
+  box-shadow: inset 0px 0px 0px 5px #000000;
+}
 </style>

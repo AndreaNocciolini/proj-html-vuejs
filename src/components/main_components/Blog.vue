@@ -9,7 +9,7 @@
                 <h2>THE RECENT NEWS YOU MUST READ IT</h2>
             </div>
             <div class="button d-flex">
-                <button>VIEW ALL</button>
+                <button id="button-hover">VIEW ALL</button>
             </div>
         </div>
         <div class="articles row row-cols-2">

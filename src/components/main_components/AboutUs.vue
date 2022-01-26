@@ -16,7 +16,7 @@
             <p>When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a</p>
         </div>
         <div class="get-started-button position-absolute">
-            <button class="p-2">Get Started</button>
+            <button id="button-hover">Get Started</button>
         </div>
     </div>
   </div>

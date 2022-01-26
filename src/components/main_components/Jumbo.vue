@@ -4,7 +4,7 @@
             <div class="description-container ms-5">
             <p> Always the best way you need it</p>
             <h1>THE BEST BUSINESS CONSULTING</h1>
-            <div><button class="me-5">READ MORE</button><i class="fas fa-play"></i></div>
+            <div><button id="button-hover" class="me-5">READ MORE</button><i class="fas fa-play"></i></div>
         </div>
         </div>
         <div class="jumbo-img float-end">
