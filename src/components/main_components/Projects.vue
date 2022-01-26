@@ -14,8 +14,17 @@
               </div>   
           </div>
           <div class="slider row row-cols-3">
-              <div class="col" v-for="(element, index) in projectsImgArray" :key="index">
+              <div class="col position-relative" v-for="(element, index) in projectsArray" :key="index">
                   <img :src="element.src" alt="">
+                  <div class="img-hover position-absolute">
+                      <div class="product-container">
+                        <h3>{{element.company}}</h3>
+                        <h6>{{element.product_category}}</h6>
+                      </div>
+                      <div class="button-container">
+                          <button id="button-hover">+</button>
+                      </div>
+                  </div>
               </div>
           </div>
       </div>
@@ -26,7 +35,7 @@
 export default {
     name: 'Projects',
     props: [
-        'projectsImgArray',
+        'projectsArray',
     ]
 }
 </script>
@@ -72,6 +81,29 @@ export default {
                 .col {
                     img {
                         width: 100%;
+                    }
+                    .img-hover {
+                        display: none;
+                        width: 93%;
+                        height: 100%;
+                        top: 0;
+                        right: 3.5%;
+                        background-color: var(--bg-red-1);
+                        opacity: 0.85;
+                        box-shadow: 0px 0px 0px 5px #000000;
+                        button {
+                            border: none;
+                            font-size: 2em;
+                            padding: 0.2em 0.7em;
+                            color: var(--tx-white-1);
+                            background-color: var(--bg-dark-1);
+                        }
+                    }
+                    &:hover .img-hover{
+                        display: flex;
+                        align-items: flex-end;
+                        justify-content: space-between;
+                        padding: 1em;
                     }
                 }
             }

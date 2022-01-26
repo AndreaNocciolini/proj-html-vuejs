@@ -3,7 +3,7 @@
       <Jumbo />
       <Consultants :consultantsArray ="consultantsArray"/>
       <AboutUs />
-      <Projects :projectsImgArray ="projectsImgArray" />
+      <Projects :projectsArray ="projectsArray" />
       <Testimonials :commentsArray="commentsArray" />
       <Blog :articlesArray="articlesArray"/>
       <LetsTalk />
@@ -45,15 +45,21 @@ export default {
                     description:'When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a'
                 }
             },
-            projectsImgArray: {
+            projectsArray: {
                 0: {
-                    src: require('../assets/images/DRY-1-790x592.jpg')
+                    src: require('../assets/images/DRY-1-790x592.jpg'),
+                    company: 'Purinky products',
+                    product_category: 'uncategorized'
                 },
                 1: {
-                    src: require('../assets/images/221bf0b7-8134-43bb-936a-5acbe42db64a-790x592.jpg')
+                    src: require('../assets/images/221bf0b7-8134-43bb-936a-5acbe42db64a-790x592.jpg'),
+                    company: 'Spelunky objects',
+                    product_category: 'uncategorized'
                 },
                 2: {
-                    src: require('../assets/images/z1el4c4p-790x592.jpg')
+                    src: require('../assets/images/z1el4c4p-790x592.jpg'),
+                    company: 'Sarappa items',
+                    product_category: 'uncategorized'
                 }
             },
             commentsArray: {
