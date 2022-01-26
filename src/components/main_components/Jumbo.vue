@@ -1,13 +1,13 @@
 <template>
     <div class="jumbo-container d-flex position-relative">
-        <div class="jumbo-description float-start positione-relative">
-            <div class="description-container ms-5">
-            <p> Always the best way you need it</p>
-            <h1>THE BEST BUSINESS CONSULTING</h1>
-            <div><button id="button-hover" class="me-5">READ MORE</button><i class="fas fa-play"></i></div>
+        <div class="jumbo-bg position-relative">
         </div>
-        </div>
-        <div class="jumbo-img float-end">
+        <div class="description-container ms-5">
+                <h6><span></span>ALWAYS THE BEST WAY U NEED IT</h6>
+                <h1>THE BEST BUSINESS CONSULTING</h1>
+                <div><button id="button-hover" class="me-5">READ MORE</button><i class="fas fa-play"></i></div>
+            </div>
+        <div class="jumbo-img">
             <img src="../../assets/images/portrait-of-young-architect-woman-on-meeting-KFZCE3A.jpg" alt="">
         </div>
     </div>
@@ -24,24 +24,8 @@ export default {
         width: 100%;
         color: var(--tx-white-1);
         background-color: var(--bg-dark-3);
-        .jumbo-description {
+        .jumbo-bg {
             width: 35%;
-            .description-container {
-                width: 40%;
-                position: absolute;
-                top: 50%;
-                right: 55%;
-                h1 {
-                    font-size: 5em;
-                    font-weight: 900;
-                }
-                button {
-                    background-color: var(--bg-green-1);
-                    border: none;
-                    font-size: 0.7em;
-                    padding: 1.5em 5em;
-                }
-            }
         }
         .jumbo-img {
             width: 70%;
@@ -57,4 +41,30 @@ export default {
         padding: 1.5em;
         border-radius: 50%;
     }
+    .description-container {
+                width: 40%;
+                position: absolute;
+                top: 30%;
+                right: 50%;
+                h6::before{
+                    content:'';
+                    display: inline-block;
+                    width: 5%;
+                    height: 2px;
+                    background-color: var(--bg-green-1);
+                    border-radius: 1px;
+                    border-radius: 1px;
+                    margin-right: 1em;
+                }
+                h1 {
+                    font-size: 5em;
+                    font-weight: 900;
+                }
+                button {
+                    background-color: var(--bg-green-1);
+                    border: none;
+                    font-size: 0.7em;
+                    padding: 1.5em 5em;
+                }
+            }
 </style>
