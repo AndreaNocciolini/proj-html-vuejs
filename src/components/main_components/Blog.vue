@@ -52,7 +52,8 @@ export default {
                         display: inline-block;
                         width: 3%;
                         height: 2px;
-                        background-color: var(--bg-green-1);  
+                        background-color: var(--bg-green-1);
+                        border-radius: 1px;  
                     }
                 }
             }

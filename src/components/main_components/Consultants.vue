@@ -39,6 +39,7 @@ export default {
         width: 60%;
         height: 2px;
         background-color: var(--bg-green-1);
+        border-radius: 1px;
       }
       .row {
         height: 90%;

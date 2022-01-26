@@ -48,6 +48,8 @@ export default {
                 width: 10%;
                 height: 2px;
                 background-color: var(--bg-green-1);
+                border-radius: 1px;
+                border-radius: 1px;
             }
         }
         h2{

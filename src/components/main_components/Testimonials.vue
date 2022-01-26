@@ -50,6 +50,7 @@ export default {
                 position: absolute;
                 right: 6%;
                 top: 90%;
+                border-radius: 1px;
             }
         }
         .description {
