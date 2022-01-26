@@ -42,29 +42,29 @@ export default {
         border-radius: 50%;
     }
     .description-container {
-                width: 40%;
-                position: absolute;
-                top: 30%;
-                right: 50%;
-                h6::before{
-                    content:'';
-                    display: inline-block;
-                    width: 5%;
-                    height: 2px;
-                    background-color: var(--bg-green-1);
-                    border-radius: 1px;
-                    border-radius: 1px;
-                    margin-right: 1em;
-                }
-                h1 {
-                    font-size: 5em;
-                    font-weight: 900;
-                }
-                button {
-                    background-color: var(--bg-green-1);
-                    border: none;
-                    font-size: 0.7em;
-                    padding: 1.5em 5em;
-                }
-            }
+        width: 40%;
+        position: absolute;
+        top: 30%;
+        right: 50%;
+        h6::before{
+            content:'';
+            display: inline-block;
+            width: 5%;
+            height: 2px;
+            background-color: var(--bg-green-1);
+            border-radius: 1px;
+            border-radius: 1px;
+            margin-right: 1em;
+        }
+        h1 {
+            font-size: 5em;
+            font-weight: 900;
+        }
+        button {
+            background-color: var(--bg-green-1);
+            border: none;
+            font-size: 0.7em;
+            padding: 1.5em 5em;
+        }
+    }
 </style>
