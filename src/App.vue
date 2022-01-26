@@ -40,6 +40,9 @@ html {
 }
 
 // Button hover effect
+#button-hover {
+  transition: all 0.3s;
+}
 #button-hover:hover {
   color: var(--tx-white-1);
   background-color: var(--bg-red-1);
