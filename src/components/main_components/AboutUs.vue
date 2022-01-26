@@ -21,7 +21,7 @@
     </div>
   </div>
 </template>
- <!--//RESTART FROM HERE*************************************************POLISH AND IMPROVE LAYOUT!!!!!-->
+
 <script>
 export default {
     name: 'AboutUs',
