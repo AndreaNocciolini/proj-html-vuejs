@@ -5,7 +5,7 @@
         <div class="description-container ms-5">
                 <h6><span></span>ALWAYS THE BEST WAY U NEED IT</h6>
                 <h1>THE BEST BUSINESS CONSULTING</h1>
-                <div><button id="button-hover" class="me-5">READ MORE</button><i class="fas fa-play"></i></div>
+                <div><button id="button-hover" class="me-5">READ MORE</button><a href=""><i class="fas fa-play"></i></a></div>
             </div>
         <div class="jumbo-img">
             <img src="../../assets/images/portrait-of-young-architect-woman-on-meeting-KFZCE3A.jpg" alt="">
