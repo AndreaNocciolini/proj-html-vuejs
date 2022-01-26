@@ -47,13 +47,13 @@ export default {
             },
             projectsImgArray: {
                 0: {
-                    src: '../../assets/images/DRY-1-790x592.jpg'
+                    src: require('../assets/images/DRY-1-790x592.jpg')
                 },
                 1: {
-                    src: '../../assets/images/221bf0b7-8134-43bb-936a-5acbe42db64a-790x592.jpg'
+                    src: require('../assets/images/221bf0b7-8134-43bb-936a-5acbe42db64a-790x592.jpg')
                 },
                 2: {
-                    src: '../../assets/images/z1el4c4p-790x592.jpg'
+                    src: require('../assets/images/z1el4c4p-790x592.jpg')
                 }
             },
             commentsArray: {

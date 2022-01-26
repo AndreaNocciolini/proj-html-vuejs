@@ -14,14 +14,8 @@
               </div>   
           </div>
           <div class="slider row row-cols-3">
-              <div class="col">
-                  <img src="../../assets/images/DRY-1-790x592.jpg" alt="">
-              </div>
-              <div class="col">
-                  <img src="../../assets/images/221bf0b7-8134-43bb-936a-5acbe42db64a-790x592.jpg" alt="">
-              </div>
-              <div class="col">
-                  <img src="../../assets/images/z1el4c4p-790x592.jpg" alt="">
+              <div class="col" v-for="(element, index) in projectsImgArray" :key="index">
+                  <img :src="element.src" alt="">
               </div>
           </div>
       </div>
@@ -31,7 +25,6 @@
 <script>
 export default {
     name: 'Projects',
-    // PROPS DA USARE PER FARE CICLO FOR SU IMMAGINI************************************
     props: [
         'projectsImgArray',
     ]
