@@ -14,7 +14,7 @@
         </div>
         <div class="articles row row-cols-2">
             <div v-for="(element, index) in articlesArray" :key="index" class="col p-3 position-relative">
-                <img src="../../assets/images/startup-business-people-and-strategy-board-PAJ3P9K-1390x1042.jpg" alt="">
+                <img :src="element.src" alt="">
                 <div class="content-articles position-absolute">
                     <h4>{{element.date}}, by {{element.author}}</h4>
                     <h2>{{element.title}}</h2>

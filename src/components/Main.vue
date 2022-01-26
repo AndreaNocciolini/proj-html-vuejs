@@ -81,17 +81,17 @@ export default {
             },
             articlesArray: {
                 0:{
-                    img:'',
+                    src: require('../assets/images/startup-business-people-and-strategy-board-PAJ3P9K-1390x1042.jpg'),
                     date:'July 4, 2019',
                     author:'paul',
                     title:'Canadian consulting firm acquired by UK giant',
                     content:'When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a'
                 },
                 1:{
-                    img:'',
+                    src: require('../assets/images/business-people-working-together-on-project-and-5FHSKBL-1390.jpg'),
                     date:'July 13, 2019',
                     author:'Beth',
-                    title:'Canadian consulting firm acquired by UK giant',
+                    title:'American consulting firm acquired by IT giant',
                     content:'When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a'
                 },
             }

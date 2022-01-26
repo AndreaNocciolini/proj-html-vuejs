@@ -104,6 +104,7 @@ export default {
                         align-items: flex-end;
                         justify-content: space-between;
                         padding: 1em;
+                        cursor: pointer;
                     }
                 }
             }
