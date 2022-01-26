@@ -1,10 +1,10 @@
 <template>
-  <div class="my-container p-4">
+  <div class="my-container">
       <div class="divider">
       </div>
       <div class="project-container">
           <div class="title">
-              <h5>PROJECT</h5>
+              <h5><span class="me-3"></span>PROJECT</h5>
           </div>
           <div class="description d-flex align-items-center justify-content-between">
               <h2>OUR EXPERTS TRUSTED CONSULTANTS HELP CLIENTS</h2>
@@ -45,12 +45,24 @@ export default {
     .my-container {
         background-color: var(--bg-dark-3);
         color: white;
+        padding-bottom: 10em;
         .project-container {
             width: 88%;
             margin: 0 auto;
+            .title{
+                font-size: 1em;
+                span{
+                    display: inline-block;
+                    width: 3%;
+                    height: 2px;
+                    background-color: var(--bg-green-1);    
+                }
+            }
             .description {
                 h2 {
                     width: 60%;
+                    font-size: 2.2em;
+                    font-weight: 900;
                 }
                 .button-container {
                     width: 5%;

@@ -42,6 +42,7 @@ export default {
         color: var(--tx-white-1);
         h5{
             width: 65%;
+            font-size: 1em;
             span {
             display: inline-block;
             width: 10%;
@@ -52,6 +53,7 @@ export default {
         h2{
             width: 85%;
             font-size: 3.5em;
+            font-weight: 900;
         }
         p {
             width: 65%;

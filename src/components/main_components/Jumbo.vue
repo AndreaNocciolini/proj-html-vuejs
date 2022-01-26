@@ -33,6 +33,7 @@ export default {
                 right: 55%;
                 h1 {
                     font-size: 5em;
+                    font-weight: 900;
                 }
                 button {
                     background-color: var(--bg-green-1);
